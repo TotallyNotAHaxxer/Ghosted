@@ -84,4 +84,31 @@ right click that partition
 
 click remove or unmount
 
+if you are running VM's it is suggested to make sure no other operating systems are slaved together as you can accidentially or possibly corrupt other systems with this.
+
+stept to prevent other corruption on other drives 
+
+remove all usb drives from the ports of your motherboard ( the linux reset will delete everything on the drives, sub drives and  partitions )
+
+take out any extra storage devices that may have other data on them ( MAKE SURE WHEN YOU PLUG THEM BACKIN THEY HAVE DATA ) 
+
+i have a ubuntu rasberry pi with  a server that always keeps my data in the case of corruption it is best TO PLEASE BE CAREFUL WHEN USING THIS SCRIPT ON LINUX SYSTEMS, IT CAN BE DETRIMENTAL TO OTHER OPERATING SYSTEMS PARTITIONED, SLAVED, OR TIED IN ANYWAY.
+
+===============================================================================
+WHEN TESTING ON WINDOWS-MAC: all was fine, a smooth factory reset was completed with no worries
+
+```
+
+
+# further notes 
+
+```
+it is suggested to use a root terminal or admin terminal when using the commands in the " danger zone " this is because most of them will not execute without root or some sort of administrative access
+
+
+
+======================================
+Os's tested: Windows32Bit, Windows64Bit, parrot os linux, ubuntu linux, debian, Deepin/UOS, mint, MacOS.
+
+Languages for programming used: Inline Assembly, Inline C. main language is go. 
 ```
