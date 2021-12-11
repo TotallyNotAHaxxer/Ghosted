@@ -62,7 +62,6 @@ for some people this program can be used for most things that can take someone a
 this shell was made to reset windows, mac and linux systems while also having the complete ability to erase you're entire system ( if you are on linux ) even reset the system settings to defualt ( linux )
 
 # WARNINGS AND PROPER USAGES 
-installs
 
 ` download the file or git clone, unzip the file, cd into it, go build `
 <br>
@@ -73,3 +72,16 @@ cd built-linux ; chmod +x ./main ; ./main
 `
 <br>
 PLEASE RUN INSIDE OF A ROOT TERMINAL OR TERMINAL WITH ROOT USER/ADMIN PRIVLEGES, IT WORKS BEST AS THAT WAY
+<br>
+<br>
+# test results from testing on linux, mac, android, and windows
+```
+When testing on LINUX MACHINES it ended up erasing other disks, this program erases everything from the root directory up so to prevent this, make sure you remove your partitions from the linux system if you have any other operating systems tied to that one to do this you go to your file manager 
+
+under devices you should see the name of the system ( for mine it says parrot-system ) others will differ 
+
+right click that partition 
+
+click remove or unmount
+
+```
