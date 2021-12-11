@@ -56,3 +56,20 @@ for some people this program can be used for most things that can take someone a
 				|[DE] reset-settings-dconf  |None   |    | WARN: 10     |Will attempt to reset settings |
 
 ```
+
+# what was this shell made to do? 
+
+this shell was made to reset windows, mac and linux systems while also having the complete ability to erase you're entire system ( if you are on linux ) even reset the system settings to defualt ( linux )
+
+# WARNINGS AND PROPER USAGES 
+installs
+
+` download the file or git clone, unzip the file, cd into it, go build `
+<br>
+or you can chmod the linux binary
+<br>
+`
+cd built-linux ; chmod +x ./main ; ./main
+`
+<br>
+PLEASE RUN INSIDE OF A ROOT TERMINAL OR TERMINAL WITH ROOT USER/ADMIN PRIVLEGES, IT WORKS BEST AS THAT WAY
